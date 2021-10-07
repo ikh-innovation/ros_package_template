@@ -1,4 +1,4 @@
-# package_template
+# ros_package_template
 
 ![CI](https://github.com/LMS-Robotics-VR/package_template/workflows/CI/badge.svg)
 
