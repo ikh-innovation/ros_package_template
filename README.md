@@ -4,34 +4,14 @@
 
 ## Overview
 
-This is a template repository for a ROS package to use when creating new ROS packages for LMS.
+This is a template repository for a ROS package to use when creating new ROS packages.
 It containts all basic functionality and sets the structure for the package. 
 Two template nodes are also provided for both Python and C++ with example code for message/topic exchanging.
 Feel free to modify it to your needs.
 
-**Keywords:** ros, package, template, lms
-
-![Thumbnail](.github/thumbnail.jpg)
-
 ## License 
 
 The source code of this package is not released under any license.
-
-**Author:** Surname Lastname
-**Maintainer:** Surname Lastname
-
-## Publications
-If you use this work in an academic context, please cite the following publication(s):
-- Names: **Title** ([PDF](link))
-```
-@inproceedings{Name,
-    author = {},
-    booktitle = {},
-    title = {},
-    publisher = {},
-    year = {}
-}
-```
 
 ## Compatibility
 
@@ -53,8 +33,8 @@ Check the GitHub actions for automated installation scripts.
 
 ## Compiling
 
-* Clone this repository inside your source folder of your catkin workspace: `git clone https://github.com/LMS-Robotics-VR/package_template`
-* Alternatively you can add this repository as a Git submodule in your existing project: `git submodule add https://github.com/LMS-Robotics-VR/package_template`
+* Clone this repository inside your source folder of your catkin workspace: `git clone https://github.com/ikh-innovation/package_template`
+* Alternatively you can add this repository as a Git submodule in your existing project: `git submodule add https://github.com/ikh-innovation/package_template`
 * Build the package: `catkin build package_template`
 
 ## Running
@@ -88,7 +68,3 @@ This package uses the standard ROS interfaces.
 
 * `/python_service`: `package_template::TemplateService`. The service server of the Python node.
 * `/cpp_service`: `package_template::TemplateService`. The service server of the C++ node.
-
-## Troubleshooting
-
-Here are some common bugs that were encountered during the development phase.
